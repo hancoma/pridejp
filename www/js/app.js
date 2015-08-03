@@ -95,7 +95,7 @@ function json_call(reg_id) {
       var reg_id=reg_id;
       var deviceid=device.uuid;
       // gcm reg_id 등록  
-         $.post("http://m.pridephoto2.com/gcm_reg_app.php",
+         $.post("http://m.prdejp.com/gcm_reg_app.php",
    {
     reg_id:reg_id,
     deviceid:deviceid
@@ -111,7 +111,7 @@ function json_call(reg_id) {
 function left_menu() {
  
      $( document ).ready(function() {
-                    $.post("http://m.pridephoto2.com/left_menu.php",
+                    $.post("http://m.pridejp.com/left_menu.php",
                {
                    
                  
@@ -135,7 +135,7 @@ var link;
 function goHref(url) {
   var url=url;
   var uuid=device.uuid;
-  url="http://m.pridephoto2.com"+url+"&uuid="+uuid;
+  url="http://m.pridejp.com"+url+"&uuid="+uuid;
   var ref = window.open(url, '_blank', 'location=no');
   ref.addEventListener('loadstart', function(event) { 
     
