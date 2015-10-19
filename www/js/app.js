@@ -168,7 +168,7 @@ function getpage(uuid,page) {
         // uuid는 기기 번호 
     var uuid=uuid;
     var page=page;
-    var url="http://m.pridephoto2.com/"+page+".php";
+    var url="http://m.pridejp.com/"+page+".php";
  $.post(url,
    {
        
@@ -206,7 +206,7 @@ function check_uuid (deviceid) {
                 
         
 
-                     $.post("http://m.pridephoto2.com/check_uuid_app.php",
+                     $.post("http://m.pridejp.com/check_uuid_app.php",
        {
                 deviceid:deviceid
        },
@@ -242,7 +242,7 @@ function onConfirm(buttonIndex) {
     var btn=buttonIndex;
     if (btn==1) {
 
-      $.post("http://m.pridephoto2.com/logout_app.php",
+      $.post("http://m.pridejp.com/logout_app.php",
        {
                 deviceid:uuid
        },
@@ -314,7 +314,7 @@ sourceType: navigator.camera.PictureSourceType.PHOTOLIBRARY
         options.params = params;
         options.chunkedMode = false;
         var ft = new FileTransfer();
-        ft.upload(imageURI, "http://m.pridephoto2.com/upload_org.php", win_photo, fail, options);
+        ft.upload(imageURI, "http://m.pridejp.com/upload_org.php", win_photo, fail, options);
     }
 
     function win_photo(r) {
@@ -345,7 +345,7 @@ function showPosition(position)
   var uuid=device.uuid;
  
   if (x) {
-   $.post("http://m.pridephoto2.com/gps_update_app.php",
+   $.post("http://m.pridejp.com/gps_update_app.php",
    {
     y:y,
     x:x,
@@ -364,7 +364,7 @@ right_menu();
 
  $( document ).ready(function() {
 
-  $.post("http://m.pridephoto2.com/right_menu_app.php",
+  $.post("http://m.pridejp.com/right_menu_app.php",
    {
       deviceid:deviceid
 

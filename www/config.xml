@@ -1,11 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
+<<<<<<< HEAD
 <widget id="com.pridejapan.anyphoto" version="1.0.7" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+=======
+<widget id="com.pridejapan.anyphoto" version="1.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+>>>>>>> 922f10338f70f65a56add53fcb1fe0fefce3f02e
     <name>pridejapan</name>
     <description>
        pridejapan
     </description>
     <author email="ch7@daum.net" href="http://m.pridejp.com">
+<<<<<<< HEAD
         pridejapn
+=======
+        pridejapan
+>>>>>>> 922f10338f70f65a56add53fcb1fe0fefce3f02e
     </author>
     <content src="index.html" />
    <preference name="permissions" value="none" />
